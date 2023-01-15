@@ -1,6 +1,6 @@
-let num1 = prompt("add n°1");
-let num2 = prompt("add n°2 ");
-num1 = 0;
-alert(parseInt(num1) + parseInt(num2))
-
-
+let num = prompt("type a number bigger then 5")
+if ( num>5){
+    console.log("true")
+} else{
+    console.log("please type a number that is bigger then 5")
+}
